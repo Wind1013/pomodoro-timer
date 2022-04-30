@@ -1,26 +1,28 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Welcome to Your Vue.js App" />
+  <timer-el />
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
-
+import TimerEl from "./components/TimerEl.vue";
 export default {
   name: "App",
   components: {
-    HelloWorld,
+    TimerEl,
   },
 };
 </script>
 
 <style>
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lobster", cursive;
+  color: #f85959;
+}
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  background: #fff8ee;
 }
 </style>
