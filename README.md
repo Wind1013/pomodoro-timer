@@ -6,6 +6,7 @@ This pattern will last for 4 rounds and after the last round you will need to ta
 
 Hope this helps!
 
+https://wind1013.github.io/pomodoro-timer/
 
 ## Project setup
 ```
